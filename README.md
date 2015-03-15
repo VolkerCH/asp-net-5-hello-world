@@ -25,3 +25,9 @@ Run `docker images` to find out the ID of the container to go to command line:
 ``` bash
 docker exec -it <<id of running container>> /bin/bash
 ```
+
+Missing programms in the images (nodejs, grunt):
+``` bash
+curl -sL https://deb.nodesource.com/setup | bash -
+npm install -g grunt-cli
+```
