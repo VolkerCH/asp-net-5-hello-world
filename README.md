@@ -1,5 +1,5 @@
-# asp-net-5-hello-world
-First Example for ASP.NET and with in a docker environment. To install docker look to [Boot2Docker](http://boot2docker.io/) URL. Once installed you can start the docker command line with the 'Boot2Docker Start' link on the desktop or start menu.
+# asp-net-5-hello-world with Docker
+This project the standard ASP.NET Web Application running on Linux/Docker. The examples is based on the new ASP.NET 5 (CTP) framework. To install docker look to [Boot2Docker](http://boot2docker.io/) URL. Once installed you can start the docker command line with the 'Boot2Docker Start' link on the desktop or start menu. You should the the following.
 
 ``` cmd
 connecting...
@@ -21,8 +21,7 @@ Boot2Docker version 1.5.0, build master : a66bce5 - Tue Feb 10 23:31:27 UTC 2015
 Docker version 1.5.0, build a8a31ef
 docker@boot2docker:~$ docker -v
 ```
-
-Use for tests with docker images based on the docker image
+And you can check if you can run docker commands like `docker -v` to print out the version. Or list installed images with `docker images`. Microsoft provides a docker image called 'microsoft/aspnet'. This is the base image where we create custom image.
 
 Use the following steps:
 
