@@ -31,4 +31,6 @@ Missing programms in the images (nodejs, grunt):
 curl -sL https://deb.nodesource.com/setup | bash -
 apt-get install -y nodejs
 npm install -g grunt-cli
+
+kpm restore
 ```
