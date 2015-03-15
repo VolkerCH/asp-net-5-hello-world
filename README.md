@@ -1,5 +1,26 @@
 # asp-net-5-hello-world
-First Example for ASP.NET and PlayGround
+First Example for ASP.NET and with in a docker environment. To install docker look to [Boot2Docker](http://boot2docker.io/) URL. Once installed you can start the docker command line with the 'Boot2Docker Start' link on the desktop or start menu.
+
+``` cmd
+connecting...
+                        ##        .
+                  ## ## ##       ==
+               ## ## ## ##      ===
+           /""""""""""""""""\___/ ===
+      ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+           \______ o          __/
+             \    \        __/
+              \____\______/
+ _                 _   ____     _            _
+| |__   ___   ___ | |_|___ \ __| | ___   ___| | _____ _ __
+| '_ \ / _ \ / _ \| __| __) / _` |/ _ \ / __| |/ / _ \ '__|
+| |_) | (_) | (_) | |_ / __/ (_| | (_) | (__|   <  __/ |
+|_.__/ \___/ \___/ \__|_____\__,_|\___/ \___|_|\_\___|_|
+Boot2Docker version 1.5.0, build master : a66bce5 - Tue Feb 10 23:31:27 UTC 2015
+
+Docker version 1.5.0, build a8a31ef
+docker@boot2docker:~$ docker -v
+```
 
 Use for tests with docker images based on the docker image
 
