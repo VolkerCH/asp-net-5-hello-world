@@ -21,7 +21,7 @@ Boot2Docker version 1.5.0, build master : a66bce5 - Tue Feb 10 23:31:27 UTC 2015
 Docker version 1.5.0, build a8a31ef
 docker@boot2docker:~$ docker -v
 ```
-And you can check if you can run docker commands like `docker -v` to print out the version. Or list installed images with `docker images`. Microsoft provides a docker image called 'microsoft/aspnet'. This is the base image where we create custom image.
+And you can check if you can run docker commands like `docker -v` to print out the version. Or list installed images with `docker images`. Microsoft provides a docker image called 'microsoft/aspnet'. This is the base image where we create custom image. There is a describtion availble with an more simple example at the following [blog](http://blogs.msdn.com/b/webdev/archive/2015/01/14/running-asp-net-5-applications-in-linux-containers-with-docker.aspx).
 
 Use the following steps:
 
