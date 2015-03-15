@@ -29,5 +29,6 @@ docker exec -it <<id of running container>> /bin/bash
 Missing programms in the images (nodejs, grunt):
 ``` bash
 curl -sL https://deb.nodesource.com/setup | bash -
+apt-get install -y nodejs
 npm install -g grunt-cli
 ```
